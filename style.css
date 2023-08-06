@@ -1,0 +1,37 @@
+#clkContainer{
+    background-color: gainsboro;
+    margin:auto;
+    position: relative;
+    height:45vw;
+    width:45vw;
+    background: url(clock.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+#hour,#minute,#second{
+    position: absolute;
+    background:black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+  width:1.4%;
+  height:24%;
+  top:27%;
+  left:49.3%;
+}
+#minute{
+    width:1.4%;
+    height:29%;
+    top:23%;
+    left:49.6%;
+  opacity:0.8;
+}
+#second{
+  width:1%;
+  height:31%;
+  top:21%;
+  left:49.6%;
+  opacity:0.8;
+}
